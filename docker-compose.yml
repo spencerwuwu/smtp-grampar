@@ -189,7 +189,7 @@ services:
     build:
       context: "./images/james-maildir"
       args:
-        APP_VERSION: "james-project-3.8.2"
+        APP_VERSION: "james-project-3.9.0"
         RELAYHOST: "echo.smtp.garden"
     image: smtp-garden-james-maildir:latest
     platform: linux/amd64

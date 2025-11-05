@@ -1,0 +1,7 @@
+EHLO smtpgarden\r\n
+MAIL FROM:<s@sender.com>\r\n
+RCPT TO:<u.com>\r\n
+DATA\r\n
+HEADxxTAIL
+\r\n.\r\n
+QUIT\r\n

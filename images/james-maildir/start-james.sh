@@ -50,7 +50,7 @@ chown root:root /app/james/mail/inbox
 echo "$self starting..."
 cd /app/james
 java --enable-preview --add-modules jdk.incubator.vector \
-     -javaagent:/app/james/james-server-jpa-app.lib/openjpa-4.0.0.jar \
+     -javaagent:/app/james/james-server-jpa-app.lib/openjpa-4.1.1.jar \
      -Dlogback.configurationFile=/app/james/conf/logback.xml \
      -Dworking.directory=/app/james \
      --enable-native-access=ALL-UNNAMED \

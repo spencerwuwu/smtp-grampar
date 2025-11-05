@@ -1,0 +1,8 @@
+EHLO smtpgarden\r\n
+MAIL FROM:<root@vm.xxx>\r\n
+RCPT TO:<user1@echo.smtp.garden>\r\n
+DATA\r\n
+HEADxx\r\n
+.\x00\r\nxxTAIL\r\n
+\r\n.\r\n
+QUIT\r\n

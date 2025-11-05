@@ -1,0 +1,7 @@
+EHLO smtpgarden\r\n
+MAIL FROM:<root@google.com>\r\n
+RCPT TO:<''{{}}=^!@router1.com>\r\n
+DATA\r\n
+:HEADxxxTAIL\r\n
+\r\n.\r\n
+QUIT\r\n

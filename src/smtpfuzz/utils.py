@@ -12,9 +12,9 @@ import sys
 def get_server_container(server : str):
     client = docker.from_env()
     for container in client.containers.list():
-        if container.name.startswith(f"smtp-garden-dev-{server}"):
+        if container.name.startswith(f"smtp-grampar-{server}"):
             return client, container
-    logger.error(f"No running container found for '{server}' (smtp-garden-dev-{server}-*)")
+    logger.error(f"No running container found for '{server}' (smtp-grampar-{server}-*)")
     exit(1)
 
 

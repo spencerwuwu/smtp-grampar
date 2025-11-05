@@ -1,0 +1,7 @@
+EHLO smtpgarden\r\n
+MAIL FROM:<root@google.com>\r\n
+RCPT TO:<@intermediate.com,@relay.net:alice@example.org>\r\n
+DATA\r\n
+:HEADxxxTAIL\r\n
+\r\n.\r\n
+QUIT\r\n
