@@ -1,0 +1,5 @@
+*
+!.gitignore
+!dumplog.sh
+!user1/
+!user2/
