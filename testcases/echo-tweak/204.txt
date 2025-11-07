@@ -1,7 +1,0 @@
-EHLO smtpgarden\r\n
-MAIL FROM:<root@google.com>\r\n
-RCPT TO:<user1@xxx.com>\r\n
-DATA\r\n
-:HEADxxx\r\n.\r\x00\nxxTAIL\r\n
-\r\n.\r\n
-QUIT\r\n

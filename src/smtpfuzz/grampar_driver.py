@@ -120,7 +120,7 @@ def query_garden_full(servers: List[str],
         return ''.join(random.choice(string.ascii_uppercase + string.digits) for _ in range(5))
 
     # Create output dir
-    output_dir = '/tmp/mime_out_' + _get_rand_str()
+    output_dir = '/tmp/smtp_out_' + _get_rand_str()
     if os.path.exists(output_dir):
         try:
             shutil.rmtree(output_dir)
